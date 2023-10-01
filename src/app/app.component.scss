@@ -1,0 +1,18 @@
+.selected-language {
+  background-color: blue;
+  color: white;
+}
+
+:host ::ng-deep .money-input {
+  text-align: right;
+  color:blue;
+}
+
+.loading {
+  color: #168A4D;
+}
+
+.link-to-project {
+  color: #262B40;
+  text-decoration: underline;
+}
