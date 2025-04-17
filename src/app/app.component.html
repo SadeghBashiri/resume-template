@@ -1,14 +1,9 @@
 <app-navbar></app-navbar>
 
 <main class="content">
-  <nav
-    class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0"
-  >
+  <nav class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0">
     <div class="container-fluid px-0">
-      <div
-        class="d-flex justify-content-between w-100"
-        id="navbarSupportedContent"
-      >
+      <div class="d-flex justify-content-between w-100" id="navbarSupportedContent">
         <div class="d-flex align-items-center"></div>
         <!-- Navbar links -->
         <ul class="navbar-nav align-items-center">
@@ -26,15 +21,13 @@
                 <span class="fas fa-language"></span>
               </span>
             </a>
-            <div
-              class="dropdown-menu dashboard-dropdown dropdown-menu dropdown-menu-center mt-2 py-0"
-            >
-              <a class="dropdown-item rounded-top fw-bold" (click)="changeLanguageTo('en')"
-                ><span class="fa fa-comment"></span>English <span *ngIf="lang == 'en'" class="fa fa-check"></span></a
-              >
-              <a class="dropdown-item rounded-bottom fw-bold" (click)="changeLanguageTo('fr')"
-                ><span class="fa fa-comment"></span>Persian <span *ngIf="lang == 'fr'" class="fa fa-check"></span></a
-              >
+            <div class="dropdown-menu dashboard-dropdown dropdown-menu dropdown-menu-center mt-2 py-0">
+              <a class="dropdown-item rounded-top fw-bold" (click)="changeLanguageTo('en')">
+                <span class="fa fa-comment"></span>English <span *ngIf="lang == 'en'" class="fa fa-check"></span>
+              </a>
+              <a class="dropdown-item rounded-bottom fw-bold" (click)="changeLanguageTo('fr')">
+                <span class="fa fa-comment"></span>Persian <span *ngIf="lang == 'fr'" class="fa fa-check"></span>
+              </a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -49,27 +42,22 @@
                 <img
                   class="user-avatar md-avatar rounded-circle"
                   alt="Image placeholder"
-                  src="assets/img/team/profile-picture-8.jpg"
+                  src="../assets/img/team/profile-picture.png"
                 />
-                <div
-                  class="media-body ms-2 text-dark align-items-center d-none d-lg-block"
-                >
+                <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
                   <span *ngIf="lang == 'fr'" class="mb-0 font-small fw-bold">صادق بشیری</span>
                   <span *ngIf="lang == 'en'" class="mb-0 font-small fw-bold">Sadegh Bashiri</span>
                 </div>
               </div>
             </a>
-            <div
-              class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-0"
-            >
-              <a routerLink="/contacts" class="dropdown-item rounded-top fw-bold" href="#"
-                ><span class="far fa-address-card"></span
-                >{{ "menu.contacts" | translate }}</a
-              >
-              <a routerLink="/about" class="dropdown-item rounded-bottom fw-bold" href="#"
-                ><span class="fas fa-info-circle text-info"></span
-                >{{ "menu.about" | translate }}</a
-              >
+            <div class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-0">
+              <a routerLink="/contacts" class="dropdown-item rounded-top fw-bold" href="#">
+                <span class="far fa-address-card">
+                </span>{{ "menu.contacts" | translate }}
+              </a>
+              <a routerLink="/about" class="dropdown-item rounded-bottom fw-bold" href="#">
+                <span class="fas fa-info-circle text-info"></span>{{ "menu.about" | translate }}
+              </a>
             </div>
           </li>
         </ul>
@@ -83,8 +71,7 @@
     bdColor="rgba(20,20,20,0.3)"
     size="medium"
     color="#168A4D"
-    type="ball-clip-rotate"
-  >
+    type="ball-clip-rotate">
   </ngx-spinner>
 
   <router-outlet></router-outlet>
@@ -104,11 +91,10 @@
 
       <div class="col-12 col-lg-6">
         <!-- List -->
-        <ul
-          class="list-inline list-group-flush list-group-borderless text-center text-xl-right mb-0"
-        >
+        <ul class="list-inline list-group-flush list-group-borderless text-center text-xl-right mb-0">
           <li class="list-inline-item px-0 px-sm-2">
-            <a routerLink="/about" class="nav-link link-to-project">About</a>
+            <a *ngIf="lang == 'fr'" routerLink="/about" class="nav-link link-to-project">درباره وبلاگ</a>
+            <a *ngIf="lang == 'en'" routerLink="/about" class="nav-link link-to-project">About</a>
           </li>
         </ul>
       </div>

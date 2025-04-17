@@ -6,28 +6,28 @@
         <h3 *ngIf="lang == 'fr'" style="text-align: right">{{ 'menu.certifications' | translate }}</h3>
 
         <div *ngIf="lang == 'en'">
-          <p>Sadegh Bashiri is convinced that training and certification are not only proof of competence, but a way of learning
-            the technologies according to the rules of the art. This is why the following certifications have been obtained over
-            the years as continuing education:</p>
+          <p>Sadegh Bashiri firmly believes that professional certifications are more than just credentials — they represent a commitment to mastering technologies through structured, industry-approved methodologies.
+            The following certifications reflect his dedication to continuous learning and technical excellence:</p>
         </div>
 
         <div *ngIf="lang == 'fr'" dir="rtl">
-          <p>صادق بشیری معتقد است که آموزش و صدور گواهینامه نه تنها مدرکی برای تخصص است، بلکه راهی برای یادگیری فناوری‌ها مطابق با قوانین هنر است. به همین دلیل است که طی سال‌ها به عنوان آموزش مداوم، گواهینامه‌های زیر کسب شده‌اند:</p>
+          <p>صادق بشیری باور دارد که گواهینامه‌های حرفه‌ای فراتر از یک مدرک هستند — آن‌ها نشان‌دهندهٔ تعهد به یادگیری فناوری‌ها از طریق روش‌های استاندارد و صنعتی هستند. گواهینامه‌های زیر بازتابی از این تعهد به یادگیری مستمر و برتری فنی هستند:</p>
         </div>
 
         <p *ngIf="lang == 'en'">{{ 'menu.technologies' | translate }}</p>
         <p *ngIf="lang == 'fr'" style="text-align: right">{{ 'menu.technologies' | translate }}</p>
 
         <ul>
-          <li>html, css, javascript</li>
-          <li>MySQL, Thymeleaf</li>
+          <li>Spring Boot</li>
+          <li>Docker</li>
         </ul>
 
-        <p>Java Platform</p>
+        <p>Certificate: </p>
 
         <ul>
-          <li>Spring, Spring Boot</li>
-          <li>Enterprise Edition (Java EE)</li>
+          <li>Spring Boot Certificate – Maktab Sharif</li>
+          <li>Docker Basics Certificate – Maktabkhooneh</li>
+          <li>Docker for Engineers and DevOps Programmers – Maktabkhooneh</li>
         </ul>
             </div>
     </div>
@@ -37,12 +37,14 @@
 
 <div class="row">
   <div class="col-md-4 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">
-    <img src="assets/img/Duke.png" />
+<!--    <img src="assets/img/Duke.png" />-->
+    <a href="https://maktabkhooneh.org/certificates/MK-R76QF9"><img src="assets/img/docker-basic.png" /></a>
   </div>
 
   <div class="col-md-4 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">
 <!--    <a href="http://www-01.ibm.com/software/lotus/training/portalofferings.html"><img src="assets/img/java-tech.png" /></a>-->
-    <img src="assets/img/java-tech.png" />
+<!--    <img src="assets/img/java-tech.png" />-->
+    <a href="https://maktabkhooneh.org/certificates/MK-A1KNY8"><img src="assets/img/docker-for-engineers-and-DevOps-programmers.png" /></a>
   </div>
 
 <!--  <div class="col-md-4 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">-->
@@ -50,13 +52,14 @@
 <!--  </div>-->
 
   <div class="col-md-4 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">
-    <img src="assets/img/Duke.png" />
-  </div>
-
-</div>
-
-<div class="row" *ngIf="atLeastMediumDevice()">
-  <div class="col-md-12 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">
+<!--    <img src="assets/img/Duke.png" />-->
     <a href="https://maktabsharif.ir/"><img src="assets/img/certif-1.jpg" /></a>
   </div>
+
 </div>
+
+<!--<div class="row" *ngIf="atLeastMediumDevice()">-->
+<!--  <div class="col-md-12 text-center" [ngClass]="{'small-devices-spacing': !atLeastMediumDevice()}">-->
+<!--    <a href="https://maktabsharif.ir/"><img src="assets/img/certif-1.jpg" /></a>-->
+<!--  </div>-->
+<!--</div>-->
