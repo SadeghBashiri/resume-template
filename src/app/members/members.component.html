@@ -1,0 +1,153 @@
+<div class="row justify-content-md-center">
+  <div class="col-12 col-md-8 col-xl-6 mb-4">
+    <div class="card border-light shadow-sm card-first">
+      <div class="card-body">
+        <h3 *ngIf="lang == 'en'">{{ "menu.members" | translate }}</h3>
+        <h3 *ngIf="lang == 'fr'" style="text-align: right">{{ "menu.members" | translate }}</h3>
+
+        <div *ngIf="lang == 'fr'" dir="rtl">
+          <p>
+            در حال حاضر . تنها از یک عضو فعال تشکیل شده است،
+          </p>
+
+          <p>
+            برنامه نویس با 3 سال تجربه در
+            بیمه. او یک
+            متخصص در فن آوری های   وب / SOA / REST، تجربه
+            از طریق دستورات متعدد در JAVA / JEE انباشته شده است
+            توسعه برنامه و وب سایت ها.
+          </p>
+
+<!--          <p class="text-center">-->
+<!--            <a class="btn btn-primary"-->
+<!--              href="assets/resume/sadegh-bashiri-EN.docx"-->
+<!--              title="Curiculum Vitae"-->
+<!--              >رزومه با فرمت Word (فارسی)<span class="fas fa-file-word"></span></a-->
+<!--            >-->
+<!--          </p>-->
+
+          <p class="text-center">
+            <a class="btn btn-primary"
+              href="assets/resume/Java Back-End Developer - Sadegh Bashiri - resume - En.pdf"
+              title="Curiculum Vitae"
+              >رزومه با فرمت PDF (فارسی)<span class="fas fa-file-pdf"></span></a
+            >
+          </p>
+
+<!--          <p class="text-center">-->
+<!--            <a class="btn btn-secondary"  href="https://cloud.amwebexpert.com/" title="Chroniques d'un dev"-->
+<!--              >Consultez mon blog de développeur (Fran&#231;ais)</a-->
+<!--            >-->
+<!--          </p>-->
+        </div>
+
+        <div *ngIf="lang == 'en'">
+          <p>
+            Currently consists of only one active member.
+          </p>
+
+          <p>
+            programmer with 3 years of experience in
+            insurance. He is an
+            expert in Web technologies / SOA / REST, experience
+            cumulated through multiple mandates in JAVA / JEE
+            application development and websites.
+          </p>
+
+<!--          <p class="text-center">-->
+<!--            <a class="btn btn-primary" href="assets/resume/sadegh-bashiri-EN.docx" title="Resume"-->
+<!--              >MSWord resume (English) <span class="fas fa-file-word"></span></a-->
+<!--            >-->
+<!--          </p>-->
+          <p class="text-center">
+              <a class="btn btn-primary" href="assets/resume/Java Back-End Developer - Sadegh Bashiri - resume - En.pdf" title="Resume"
+              >PDF resume (English) <span class="fas fa-file-pdf"></span></a
+            >
+          </p>
+
+<!--          <p class="text-center">-->
+<!--            <a class="btn btn-secondary" href="https://chroniquedundev.wordpress.com/" title="Chroniques d'un dev"-->
+<!--              >View my blog (French only)</a-->
+<!--            >-->
+<!--          </p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-md-center" *ngIf="lang == 'fr'" dir="rtl">
+  <div class="col-12 col-md-6 mb-6">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <ul>
+          <li>
+            توانایی قوی در تجزیه و تحلیل الزامات عملکردی و فنی
+          </li>
+          <li>مهندس نرم افزار مجرب در  Java EE / Spring / SQL</li>
+          <li>
+            توانایی بسیار خوب برای همکاری و ارتباط با کاربران،
+            مدیران، کارشناسان عملکردی
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 mb-6">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <ul>
+          <li>
+            دانش عمیق در زمینه های مختلف مهندسی نرم افزار
+          </li>
+          <li>
+            تجزیه و تحلیل، برنامه ریزی، پیکربندی نرم افزار، تست، کیفیت،
+            طراحی، اجرا، نگهداری …
+          </li>
+          <li>
+            تسلط به زبان کردی (زبان مادری). انگلیسی: سطح کسب و کار
+            (نوشتاری و گفتاری).
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-md-center" *ngIf="lang == 'en'">
+  <div class="col-12 col-md-6 mb-6">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <ul>
+          <li>
+            Strong ability to analyze functional and technical requirements
+          </li>
+          <li>Experienced Software engineer on Java EE / Spring / SQL</li>
+          <li>
+            Very good ability to collaborate and communicate with users,
+            managers, functional experts
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 mb-6">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <ul>
+          <li>
+            In-depth knowledge of the different areas of software engineering
+          </li>
+          <li>
+            Analysis, planning, software configuration, testing, quality,
+            design, implementation, maintenance…
+          </li>
+          <li>
+            Proficiency in Kurdish (native language). English: business level
+            (written and spoken).
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

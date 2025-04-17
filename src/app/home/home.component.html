@@ -1,0 +1,192 @@
+<div class="row" [class]="lang == 'fr' ? 'right-align' : 'left-align'">
+  <div class="col-12 col-md-5 col-sm-12">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <h2 *ngIf="lang == 'en'">{{ "welcome.title" | translate }}</h2>
+        <h2 *ngIf="lang == 'fr'" dir="rtl">{{ "welcome.title" | translate }}</h2>
+        <p *ngIf="lang == 'en'">{{ "welcome.text" | translate }}</p>
+        <p *ngIf="lang == 'fr'" dir="rtl">{{ "welcome.text" | translate }}</p>
+
+        <div *ngIf="lang == 'fr'" dir="rtl">
+          <p>
+            هدف اصلی من کمک به شرکت ها برای توسعه برنامه های کاربردی برای خودکارسازی فرآیندهای تجاری است.
+          </p>
+          <p>اجرای موفقیت آمیز یک سیستم مدیریت کاربر برای شرکت بیمه، که منجر به یک فرآیند احراز هویت کاربر ساده و ایمن
+            می شود. در محیط های چابک با هم تیمی های 5 تا 15 نفره کار کرده اند. منجر به معماری مجدد پلت فرم کلیدی برای
+            افزایش بیش از 60 درصد درخواست ها در ثانیه در آخرین موقعیت شد. برای افزایش عملکرد 45% در پروژه تامین، پایه کد
+            را از ابتدا بهینه سازی و بازسازی نمودم.</p>
+          <!--<ul>
+            <li>
+              که بهترین شیوه های کدنویسی کد قابل نگهداری و تکاملی را ترویج می کند
+            </li>
+            <li>این کد منبع در مورد تجربه، شایستگی و نظم است</li>
+            <li>
+              این که کاربران راضی گواهی بر طراحی اپلیکیشن موفق هستند
+            </li>
+          </ul>-->
+        </div>
+
+        <div *ngIf="lang == 'en'">
+          <p>
+            My main objective is to help companies develop applications to
+            automate their business processes.
+          </p>
+          <p>Successfully implementation a user management system for the insurance company, resulting in a streamlined
+            and secure user authentication process. Have worked in agile environments with teammates from 5 to 15
+            people. led re-architecture of key platform to increase over 60 percent of requests per second in latest
+            position. Have optimized and refactored code base from scratch to increase 45 performance boost in Tamin
+            project.</p>
+          <!--<ul>
+            <li>That best coding practices promote maintainable and evolutive code</li>
+            <li>
+              That source code is about experience, competence and discipline
+            </li>
+            <li>
+              That satisfied users are proof of successful application design
+            </li>
+          </ul>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-7 col-sm-12">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <h2 *ngIf="lang == 'fr'" style="text-align: right">جاوا بک اند دولوپر</h2>
+        <h2 *ngIf="lang == 'en'">Java Back-End Developer</h2>
+
+        <div *ngIf="lang == 'fr'" dir="rtl">
+          <p>برنامه نویس وب</p>
+          <ul>
+            <li style="list-style-type: circle;">طراحی، پیاده‌سازی و نگهداری سرویس‌ها و API‌ها با استفاده از JavaEE و Spring Boot.</li>
+            <li style="list-style-type: circle;">ایجاد و به‌روزرسانی دیتابیس‌ها و اتصال به آنها.</li>
+            <li style="list-style-type: circle;">طراحی و پیاده‌سازی واسط کاربری با استفاده از Angular و تکنولوژی‌های مرتبط.</li>
+            <li style="list-style-type: circle;">ایجاد و اجرای تست‌های واحد و اندازه‌گیری عملکرد برنامه.</li>
+            <li style="list-style-type: circle;">تنظیم و مدیریت سرورها و محیط‌های اجرایی مانند WebLogic.</li>
+            <li style="list-style-type: circle;">به‌روزرسانی و بهینه‌سازی کدها و ساختارهای موجود برای بهبود کارایی و امکانات.</li>
+            <li style="list-style-type: circle;">همکاری با دیگر اعضای تیم توسعه، از جمله طراحان UX/UI، توسعه‌دهندگان Frontend و سایر متخصصان.</li>
+            <li style="list-style-type: circle;">آموزش دیگر اعضای تیم در زمینه‌های مرتبط با تکنولوژی‌ها.</li>
+            <li style="list-style-type: circle;">بررسی و انتخاب تکنولوژی‌ها و ابزارهای جدید برای بهبود فرآیندهای توسعه.
+            </li>
+          </ul>
+        </div>
+        <div *ngIf="lang == 'en'">
+          <p>Web Developer</p>
+          <ul>
+            <li>Design, implement, and maintain services and APIs using JavaEE and Spring Boot.</li>
+            <li>Create and update databases and handle database connections.</li>
+            <li>Design and implement the user interface using Angular and related technologies.</li>
+            <li>Develop and execute unit tests and performance measurements.</li>
+            <li>Configure and manage servers and runtime environments like WebLogic.</li>
+            <li>Deploy and optimize code and structures for performance and features.</li>
+            <li>Collaborate with other development team members, including UX/UI designers, frontend developers, and other specialists.</li>
+            <li>Train other team members in technology-related areas.</li>
+            <li>Explore and choose new technologies and tools to enhance development processes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-md-center">
+  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <div class="row d-block d-xl-flex align-items-center">
+          <div
+            class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center"
+          >
+            <div class="ct-chart-traffic-share ct-golden-section ct-series-a">
+              <div class="chartist-tooltip"></div>
+              <a
+                title="Oracle Database"
+                href="https://www.oracle.com/database/"
+              ><img class="center-block" src="assets/img/oracle-database.jpg"
+              /></a>
+              <a
+                title="MySQL"
+                href="https://www.mysql.com/"
+              ><img class="center-block" src="assets/img/mysql.png"
+              /></a>
+            </div>
+          </div>
+          <div class="col-12 col-xl-7 px-xl-0">
+            <h3 *ngIf="lang == 'fr'">پایگاه داده</h3>
+            <h3 *ngIf="lang == 'en'">Database</h3>
+
+<!--            <p *ngIf="lang == 'fr'">برنامه بومی یا برنامه های وب پاسخگو</p>-->
+<!--            <p *ngIf="lang == 'en'">Natives app or Responsive webapps</p>-->
+            <ul>
+              <li>MySQL, SQL Server, Oracle…</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <div class="row d-block d-xl-flex align-items-center">
+          <div
+            class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center"
+          >
+            <div class="ct-chart-traffic-share ct-golden-section ct-series-a">
+              <div class="chartist-tooltip"></div>
+              <a
+                title="Spring Framework"
+                href="https://spring.io/"
+              ><img class="center-block" src="assets/img/spring.png"
+              /></a>
+
+              <a
+                title="JakartaEE"
+                href="http://www.wampserver.com/en/"
+              ><img class="center-block" src="assets/img/jakartaEE.png"
+              /></a>
+            </div>
+          </div>
+          <div class="col-12 col-xl-7 px-xl-0">
+            <h3 *ngIf="lang == 'fr'">تکنولوژی های جاوا</h3>
+            <h3 *ngIf="lang == 'en'">Java Tech</h3>
+
+            <ul>
+              <li>Spring Boot, Java EE</li>
+              <li>JPA, Hibernate, Spring DATA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <div class="row d-block d-xl-flex align-items-center">
+          <div
+            class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center"
+          >
+            <div class="ct-chart-traffic-share ct-golden-section ct-series-a">
+              <div class="chartist-tooltip"></div>
+<!--              <a title="ReactJS" href="https://reactjs.org/"-->
+<!--              ><img class="center-block" src="assets/img/react-logo.png"-->
+<!--              /></a>-->
+              <a title="Angular" href="https://angular.io/"
+              ><img class="center-block" src="assets/img/angular-typescript.png"
+              /></a>
+            </div>
+          </div>
+          <div class="col-12 col-xl-7 px-xl-0">
+            <h3 *ngIf="lang == 'fr'">رابط های کاربری</h3>
+            <h3 *ngIf="lang == 'en'">User Interfaces</h3>
+
+            <ul>
+              <li>Angular, RxJS, Typescript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

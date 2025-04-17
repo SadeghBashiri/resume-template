@@ -1,0 +1,57 @@
+{
+    "welcome.title": "خوش آمدید !",
+    "welcome.text": "توسعه دهنده بک اند با بیش از 3 سال تجربه عملی در زبان جاوا در پیاده سازی محدوده منطق تجاری.",
+
+    "menu.home": "خانه",
+    "menu.more": "Plus",
+    "menu.about": "درباره من",
+    "menu.certifications": "گواهینامه ها",
+    "menu.technologies": "تکنولوژی ها",
+    "menu.members": "اعضاء",
+    "menu.achievements": "دستاوردها",
+    "menu.demos": "نسخه آزمایشی",
+    "menu.contacts": "ارتباط با من",
+    "menu.language": "Langue",
+    "menu.language.english": "English",
+    "menu.language.french": "Français",
+
+    "welcome.see.more": "En savoir plus...",
+
+    "about.title.description": "درباره این برنامه...",
+    "about.title.version": "Version",
+    "about.title.copyright": "Droits d'auteur",
+    "about.copyright": "Aucun",
+    "about.title.opensource": "Open source",
+    "about.opensource.notice": "این نرم افزار از کتابخانه های \"منبع باز\" توزیع شده تحت مجوزهای زیر استفاده می کند:",
+
+    "generic.network.error": "Une erreur de connection internet est survenue. Vérifiez l'adresse du serveur et votre connection internet et réessayez.",
+    "generic.start": "Démarrer",
+    "generic.stop": "Arrêter",
+    "generic.search" : "Rechercher",
+    "generic.refresh" : "Rafraîchir",
+    "generic.ok" : "OK",
+    "generic.delete" : "Supprimer",
+    "generic.save" : "Sauvegarder",
+    "generic.cancel" : "Annuler",
+    "generic.add" : "Ajouter",
+    "generic.remove" : "Supprimer",
+    "generic.modify" : "Modifier",
+    "generic.yes" : "Oui",
+    "generic.no" : "Non",
+    "generic.searching": "Recherche en cours :",
+    "generic.message.technical.error" : "Une erreur technique est survenue.",
+    "generic.message.save.success" : "Données sauvegardées avec succès",
+    "generic.title.info" : "Information",
+    "generic.title.error" : "Erreur",
+    "generic.title.warning" : "Attention",
+    "generic.question.delete": "Supprimer cette entrée ?",
+    "generic.confirm.title": "Confirmation",
+
+    "validation.required": "Vous devez saisir une valeur pour ce champ",
+    "validation.pattern": "Entrée invalide pour ce champ",
+    "validation.range": "Entrée hors limite pour ce champ",
+    "validation.range.explicit": "La valeur doit être entre {{min}} et {{max}}",
+
+    "poc.usernameGithub": "نام کاربری گیت هاب"
+
+}
